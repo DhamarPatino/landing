@@ -1,5 +1,5 @@
 'use strict';
-import { fetchFakerData } from './functions.js';
+
 let fetchFakerData =  (url) => {
 
     return fetch(url)
@@ -34,9 +34,4 @@ let fetchFakerData =  (url) => {
 
 
 
-(() => {
-    
-    loadData();
-})();
-
-export { fetchFakerData, loadData }
+export { fetchFakerData }
